@@ -1,0 +1,198 @@
+body{
+	background: #FF8A8A;
+}
+
+/*Imagen del logo*/
+.img{
+	width: 350;
+	height: 300;
+}
+
+/*Imagenes en movimiento*/
+.esa{
+	width: 300;
+	height: 250;
+}
+
+/*imagenes tabla de productos*/
+.ita{
+	width: 200;
+	height: 200;
+}
+
+h1{
+	font-size: 40px;
+	font-style: Tahoma;
+	text-align: center;
+	color: #FF0000;
+}
+
+p{
+	font-size: 15px;
+	font-style: Tahoma;
+	text-align: center;
+	color: #FF0000;
+}
+
+table{
+	border-style: solid;
+	border-color: #FCFEBF;
+	font-size: 20px;
+	font-style: Tahoma;
+	text-align: center;
+	border: 4;
+	width: 90%;
+	height: 60;
+}
+
+th{
+	background-color: #F4F9A5;
+}
+
+tr{
+	font-size: 20px;
+	font-style: tahoma;
+	text-align: center;
+	color: black;
+	background-color: #F98383;
+}
+
+td{
+	background-color: #F98383;
+	text-align: center;
+}
+
+/*Tabla de iconos transparente*/
+.sin{
+	border-style: transparent;
+	border: 0;
+	background-color: transparent;
+}
+
+/*Tabla de contacto*/
+.con{
+	border-style: solid;
+	border-color: #FCFEBF;
+	font-size: 15px;
+	font-style: Tahoma;
+	text-align: center;
+	border: 2;
+	width: 30%;
+}
+
+/*Principio de la pagina*/
+.div1{
+	background: linear-gradient(to bottom, #FCFEBF, #FFFFFF);
+	border: 5px groove #FCFEBF;
+	margin: auto;
+}
+
+/*Cuerpo de la pagina*/
+.div2{
+	background: url("blanco.jpg");
+	border: 5px groove #FCFEBF;
+	margin: auto;
+}
+
+/*Iconos*/
+.div3{
+	background: linear-gradient(to bottom, #FFFFFF, #FCFEBF);
+	border: 5px groove #FCFEBF;
+	margin: auto;
+}
+
+/*Creditos*/
+.div4{
+	background: url("ama.jpg");
+	border: transparent;
+	margin: auto;
+	font-style: Tahoma;
+}
+
+/*Mapa*/
+.div{
+	background: linear-gradient(to bottom, #FFFFFF, #FCFEBF);
+	border: 5px groove #FCFEBF;
+	margin: auto;
+}
+
+.caja{
+	height: 300px;
+	width: 250px;
+	border: 1px solid #FCFEBF;
+	background: #FCFEBF;
+	margin: 5px;
+	color: black;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	display: inline-block;
+}
+.caja:hover{
+			/*colocar sombra al div*/
+			/*	x y Radio Color*/
+	box-shadow: 0 0 10px red;
+	/*Cambia el tamaño de escala del div*/
+	transform: scale(1.3);
+}
+.caja-texto{
+	padding-bottom: 5px;
+	padding-top: 2px;
+	font-size: 30px;
+	color: red;
+	font-weight: bold;
+}
+.texto-adicional{
+	padding-top: 5px;
+	font-size: 25px;
+}
+
+@font-face{
+	font-family:"mifuente";
+	src: url(Vogue.ttf);
+}
+
+#fuente-Vogue{
+	font-family:"mifuente";
+}
+
+#fuente-google{
+	font-family: 'Red Hat Mono', monospace;
+}
+
+.navegacion{
+	display: flex;
+	height: 100px;
+}
+.navegacion-item{
+	flex:1;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	display: flex;
+	transition: flex-grow 0.2s;
+	justify-content:center;
+	align-items:center;
+}
+.navegacion-item:hover{
+	flex-grow:10;
+}
+.navegacion-item:hover .navegador-titulo{
+	transform: rotate(0);
+}
+.navegacion-item:nth-child(1){
+	background: #FCFFC2;
+}
+.navegacion-item:nth-child(2){
+	background: #F7FBA0;
+}
+.navegacion-item:nth-child(3){
+	background: #FCFFC2;
+}
+.navegacion-item:nth-child(4){
+	background: #F7FBA0;
+}
+.navegacion-titulo{
+	margin:0;
+	transform:rotate(-90deg);
+	transition: transform 0.2s 0.2s;
+}
